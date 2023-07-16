@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TaskUniqSymbol</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="header">TaskUniqSymbol</div>
+      </header>
+      <main>
+        <h1 class="captial">Task</h1>
+        <div class="discription">
+          <p class="condition">
+            Програма приймає на вхід довільний текст і знаходить в кожному слові
+            цього тексту найперший символ, який більше НЕ повторюється в
+            аналізуємому слові - далі із отриманого набору символів програма
+            вибирає перший унікальний (тобто той, який більше не зустручається в
+            наборі) і повернутає його.
+          </p>
+          
+          <div>
+            <div class="place_textarea">
+                <p>Enter your Text</p>
+              <textarea name="input_text" cols = "60" id="text"></textarea>
+          </div>
+          <div class="container_flex">
+              <button class="button_text " id="clear" type ="reset">clear</button>
+              <button class="button_text " id="result" type="submit">result</button>
+          </div>
+        </div>
+
+      </main>
+      <footer>
+        <div class="down"></div>
+      </footer>
+    </div>
+    <script src="./logicTask.js"></script>
+  </body>
+</html>
